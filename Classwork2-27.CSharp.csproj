@@ -78,6 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Level.cs" />
     <Compile Include="Assets\TimeFormatAttribute.cs" />
     <Compile Include="Assets\TimeFormatDrawer.cs" />
     <Compile Include="Assets\testTimeFormat.cs" />
