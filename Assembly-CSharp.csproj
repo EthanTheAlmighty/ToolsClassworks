@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F7B294E5-9A05-B931-C7FE-EE00EEA66873}</ProjectGuid>
+    <ProjectGuid>{4DAFFB57-EED8-2F5A-6044-5D702E1A364F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,7 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HashLineAttribute.cs" />
+     <Compile Include="Assets\Level.cs" />
      <Compile Include="Assets\TimeFormatAttribute.cs" />
+     <Compile Include="Assets\TimeFormatDrawer.cs" />
+     <Compile Include="Assets\testTimeFormat.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
