@@ -38,6 +38,33 @@ public class LevelGrid : MonoBehaviour {
         GridGizmo(col, row);
     }
 
+    public Vector3 GridToWorld(int col, int row)
+    {
+        Vector3 gridPoint = new Vector3(col*gridSize + gridSize/2, row*gridSize + gridSize/2);
+        return gridPoint;
+    }
+
+    public Vector3 WorldToGrid(Vector3 point)
+    {
+        Vector3 gridPoint = new Vector3((int)point.x / gridSize, (int)point.y / gridSize, 0);
+        return gridPoint;
+    }
+
+    public bool IsInsideGridBounds(Vector3 point)
+    {
+        float minX = 0;
+        float maxX = gridSize * col;
+        float minY = 0;
+        float maxY = gridSize * row;
+
+        return (point.x >= minX && point.x <= maxX && point.y >= minY && point.y <= maxY);
+    }
+
+    public bool IsInsideGridBounds(int cols, int rows)
+    {
+        return (cols >= 0 && cols < col && rows >= 0 && rows < row);
+    }
+
     void OnDrawGizmosSelected()
     {
         GridFrame(row, col);

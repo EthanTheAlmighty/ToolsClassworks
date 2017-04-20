@@ -82,6 +82,7 @@
     <Compile Include="Assets\CustomHeroEditor.cs" />
     <Compile Include="Assets\CustomObjectAttribute.cs" />
     <Compile Include="Assets\GizmoExample.cs" />
+    <Compile Include="Assets\GridSnap.cs" />
     <Compile Include="Assets\HashLineAttribute.cs" />
     <Compile Include="Assets\Level.cs" />
     <Compile Include="Assets\LevelGrid.cs" />
