@@ -81,12 +81,16 @@
     <Compile Include="Assets\CustomColors.cs" />
     <Compile Include="Assets\CustomHeroEditor.cs" />
     <Compile Include="Assets\CustomObjectAttribute.cs" />
+    <Compile Include="Assets\DrawLine.cs" />
+    <Compile Include="Assets\DrawLineEditor.cs" />
+    <Compile Include="Assets\ExampleWindow.cs" />
     <Compile Include="Assets\GizmoExample.cs" />
     <Compile Include="Assets\GridSnap.cs" />
     <Compile Include="Assets\HashLineAttribute.cs" />
     <Compile Include="Assets\Level.cs" />
     <Compile Include="Assets\LevelGrid.cs" />
     <Compile Include="Assets\MyHeroClass.cs" />
+    <Compile Include="Assets\SampleWindow.cs" />
     <Compile Include="Assets\TimeFormatAttribute.cs" />
     <Compile Include="Assets\TimeFormatDrawer.cs" />
     <Compile Include="Assets\UEEexample.cs" />
